@@ -1,0 +1,66 @@
+*, body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: black;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-logo{
+    color: white;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.navbar-link{
+    margin-right: 25px;
+}
+.navbar-link ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar-link li{
+    list-style: none;
+}
+
+.navbar-link li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+
+.hero-box{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-text{
+    margin-top: 70px;
+    margin-left: 35px;
+}
+.bannerh2{
+    color: white;
+    font-size: 70px;
+}
+.banner-text p{
+    color: white;
+}
+.herobtn{
+    padding: 10px;
+    background-color: red;
+    margin-top: 15px;
+    border-radius: 40%;
+}
+.heroimg{
+    height: 500px;
+    object-fit: contain;
+}
